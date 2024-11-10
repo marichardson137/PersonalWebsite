@@ -16,7 +16,7 @@ export default function About() {
                         I love to <span className="text-slate-200 font-semibold">build</span> things- skate ramps, quadcopters, cat trees- you name it. For me, <span className="text-slate-200 font-semibold">computer programming </span> 
                         has always been the most <span className="text-slate-200 font-semibold">accessible</span> way to build out my next project and share it with others. I'm a big supporter of free and <Link to="https://www.blender.org/about/" target="_blank" rel="noopener noreferrer" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">open source</Link> software
                         and find great joy in <span className="text-slate-200 font-semibold">collaborating</span> with other developers. If there's one thing that excites me the most, it's <span className="text-slate-200 font-semibold">learning</span> something new- I will never stop seeking out novel technologies,
-                        patterns, and designs for inspiration. Check out my <Link to="/projects" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">latest work</Link> to see this in action.
+                        patterns, and designs for inspiration. Check out my <Link to="projects" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">latest work</Link> to see this in action.
                     </p>
                 </div>
                 <div className="p-2 z-10 flex flex-col items-center sm:items-start text-2xl sm:text-3xl lg:text-4xl">

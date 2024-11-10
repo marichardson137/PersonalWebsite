@@ -15,7 +15,7 @@ import Connect from './pages/Connect';
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: import.meta.env.BASE_URL,
         element: <App />,
         errorElement: <ErrorPage />,
         children: [
@@ -25,6 +25,7 @@ const router = createBrowserRouter([
             { path: "connect", element: <Connect /> },
           ],
     },
+    { basename: import.meta.env.BASE_URL },
 ]);
 
 createRoot(document.getElementById('root')).render(

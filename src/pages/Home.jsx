@@ -26,7 +26,7 @@ export default function Home() {
                     Software Engineer from NC
                 </h3>
             </div>
-            <Link to="/about" className="self-center w-3/4 sm:w-1/2 max-w-[500px]">
+            <Link to="about" className="self-center w-3/4 sm:w-1/2 max-w-[500px]">
                 <img className="transition-all hover:ring-4 ring-slate-200 shadow-lg rounded-full aspect-square object-cover" src={headshot}/>
             </Link>
         </div>

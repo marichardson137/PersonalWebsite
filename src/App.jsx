@@ -18,10 +18,10 @@ function App() {
 function Header() {
     return (
         <div className="mb-2 flex gap-2 sm:gap-4 md:gap-6 lg:gap-10 pt-5 p-2 justify-center items-center">
-            <HeaderLink text="Home" path="/" />
-            <HeaderLink text="About" path="/about" />
-            <HeaderLink text="Projects" path="/projects" />
-            <HeaderLink text="Connect" path="/connect" />
+            <HeaderLink text="Home" path=""  />
+            <HeaderLink text="About" path="about" />
+            <HeaderLink text="Projects" path="projects" />
+            <HeaderLink text="Connect" path="connect" />
         </div>
     )
 }
