@@ -6,6 +6,8 @@ import {
 
 import { HeaderLink } from "./components/Interactive";
 
+import { FaHeart } from "react-icons/fa";
+
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
     <div className="relative w-full overscroll-none">
         <Header/>
         <Outlet/>
+        <Footer/>
     </div>
   ) 
 }
@@ -29,8 +32,8 @@ function Header() {
 
 function Footer() {
     return (
-        <footer>
-            <p>Michael Richardson</p>
+        <footer className="mt-20 mb-10">
+            <p className="font-thin text-slate-400 text-center text-lg">© 2024 Michael Richardson</p>
         </footer>
     )
 }

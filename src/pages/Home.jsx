@@ -5,7 +5,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaSquareYoutube } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
-import { FaHeart } from "react-icons/fa";
 
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
