@@ -6,13 +6,15 @@ import {
 
 import { HeaderLink } from "./components/Interactive";
 
+import { useState, useEffect } from 'react';
+
 function App() {
   return (
-    <div className="w-full h-full overscroll-none">
+    <div className="relative w-full h-full overscroll-none">
         <Header/>
         <Outlet/>
     </div>
-  )
+  ) 
 }
 
 function Header() {

@@ -2,14 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
 body {
-  width: 100vw;
-  min-height: 100vh;
-  min-width: 350px;
+  min-height: 100%;
+  @apply bg-rose-950;
   @apply bg-gradient-to-tr from-fuchsia-950 to-rose-950;
-}
-
-body > div {
-  width: 100%;
-  height: 100%;
 }

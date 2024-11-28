@@ -8,10 +8,10 @@ export default function About() {
         <div className="w-full h-full mb-10">
             <div className="w-full p-4 gap-4 flex flex-col justify-center items-center overflow-hidden max-w-[800px] mx-auto">
                 <div className="p-2 z-10 flex flex-col items-center sm:items-start text-2xl sm:text-3xl lg:text-4xl">
-                    <h1 className="font-semibold lg:py-2 text-slate-100 text-4xl sm:text-5xl lg:text-6xl">
+                    <h1 className="font-semibold lg:py-2 text-slate-100 text-3xl sm:text-4xl lg:text-5xl">
                         Quick introduction
                     </h1>
-                    <p className="mt-4 text-slate-300 text-lg sm:text-xl md:text-2xl text-center sm:text-left">
+                    <p className="mt-4 text-slate-300 text-lg sm:text-lg md:text-xl text-center sm:text-left">
                         I'm a <span className="text-slate-200 font-semibold">Software Engineer</span> and recent graduate from <span className="text-slate-200 font-semibold">North Carolina State University</span>. 
                         I love to <span className="text-slate-200 font-semibold">build</span> things- skate ramps, quadcopters, cat trees- you name it. For me, <span className="text-slate-200 font-semibold">computer programming </span> 
                         has always been the most <span className="text-slate-200 font-semibold">accessible</span> way to build out my next project and share it with others. I'm a big supporter of free and <Link to="https://www.blender.org/about/" target="_blank" rel="noopener noreferrer" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">open source</Link> software
@@ -20,7 +20,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className="p-2 z-10 flex flex-col items-center sm:items-start text-2xl sm:text-3xl lg:text-4xl">
-                    <h1 className="font-semibold lg:py-2 text-slate-100 text-4xl sm:text-5xl lg:text-6xl">
+                    <h1 className="font-semibold lg:py-2 text-slate-100 text-3xl sm:text-4xl lg:text-5xl">
                         My Journey
                     </h1>
                     
