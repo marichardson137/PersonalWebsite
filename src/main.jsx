@@ -11,19 +11,17 @@ import ErrorPage from "./pages/Error"
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Connect from './pages/Connect';
 
 const router = createBrowserRouter([
     {
         path: import.meta.env.BASE_URL,
         element: <App />,
-        errorElement: <ErrorPage />,
         children: [
             { path: "", element: <Home /> },
             { path: "about", element: <About /> },
             { path: "projects", element: <Projects /> },
-            { path: "connect", element: <Connect /> },
-          ],
+        ],
+        errorElement: <ErrorPage />, // TODO: not working
     },
     { basename: import.meta.env.BASE_URL },
 ]);

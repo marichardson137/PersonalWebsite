@@ -5,6 +5,26 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaSquareYoutube } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
+
+import { FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiRemixRunFill } from "react-icons/ri";
+
+import { SiTypescript } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { SiCplusplus } from "react-icons/si";
+
+import { SiSocketdotio } from "react-icons/si";
+import { SiRaylib } from "react-icons/si";
+import { SiMariadb } from "react-icons/si";
+
+
+import { FaGithub } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
+
+
 
 import {
     Link,
@@ -14,23 +34,75 @@ import {
 export default function Home() {
     return (
         <>
-        <div className="w-full p-4 gap-6 md:gap-8 flex flex-col md:flex-row justify-center items-center overflow-x-hidden">
-            <div className="cursor-default p-2 z-10 flex flex-col items-center md:items-start text-nowrap text-2xl sm:text-3xl lg:text-4xl">
-                <h3 className="text-slate-300 font-extralight ">
-                    Hi there! My name is
-                </h3>
-                <h1 className="font-semibold lg:py-2 text-slate-200 transition-all duration-300 hover:text-transparent bg-clip-text bg-colorful-gradient text-4xl sm:text-5xl lg:text-6xl">
-                    Michael Richardson
-                </h1>
-                <h3 className="text-slate-400 font-thin">
-                    Software Engineer from NC
-                </h3>
-            </div>
-            <Link to="about" className="self-center w-3/4 sm:w-1/2 max-w-[500px]">
-                <img className="transition-all hover:ring-4 ring-slate-200 shadow-lg rounded-full aspect-square object-cover" src={headshot}/>
-            </Link>
+        <div className="h-full p-4">
+           <div className="mx-auto text-slate-100 text-xl flex flex-col gap-4 md:min-h-[500px] md:max-h-[90vh] md:max-w-[750px] md:grid md:grid-cols-12 md:grid-rows-12 ">
+                <div className="bg-primary-base p-6 rounded-xl col-span-8 row-span-3">
+                    <h2 className="text-2xl font-semibold">Welcome,</h2>
+                    <p className="mt-1 ml-1 font-extralight">My name is <span className="font-medium">Michael Richardson</span> and I'm a full-stack developer and student from North Carolina.</p>
+                </div>
+                <div className="bg-primary-base p-6 rounded-xl col-span-4 row-span-6 flex flex-col">
+                    <h2 className="text-2xl font-medium">Other Links</h2>
+                    <div className="flex-grow p-6 grid grid-rows-1 grid-cols-4 md:grid-rows-2 md:grid-cols-2 text-slate-400 gap-y-4 gap-x-8 text-6xl place-items-center">
+                    <Link target="_blank" rel="noopener noreferrer" to="https://www.linkedin.com/in/michael-richardson-1aa3001a2/" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                            <FaLinkedin />
+                        </Link>
+                        <Link target="_blank" rel="noopener noreferrer" to="https://github.com/marichardson137" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                            <FaGithubSquare />
+                        </Link>
+                        <Link target="_blank" rel="noopener noreferrer" to="https://www.youtube.com/@gr4dience" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                            <FaSquareYoutube />
+                        </Link>
+                        <Link target="_blank" rel="noopener noreferrer" to="https://www.instagram.com/michaelrichardsonnn/" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                            <FaSquareInstagram />
+                        </Link>
+                    </div>
+                </div>
+                <div className="border-2 border-primary-light p-4 rounded-xl col-span-4 row-span-2 flex items-center justify-center">
+                    <h2 className="cursor-default font-medium text-2xl text-center text-nowrap">Chapel Hill, NC</h2>
+                </div>
+                <div className="bg-primary-base rounded-xl overflow-hidden col-span-4 row-span-5">
+                    <Link to="about" className="col-span-4 row-span-6">
+                        <img className="rounded-xl object-cover scale-125 w-full h-full" src={headshot}/>
+                    </Link>
+                </div>
+                <div className="bg-primary-base p-6 rounded-xl col-span-4 row-span-7">
+                    <h2 className="text-2xl font-medium">My Favorites</h2> {/* <FaHeart className="mr-1 mb-1 leading-4 inline-block"/>  */}
+                    <div className="mt-4 flex flex-wrap items-center justify-center gap-3 sm:gap-4 sm:p-2 text-[2.5rem] text-slate-400">
+                        <FaReact className="hover:text-slate-100"/>
+                        <RiRemixRunFill className="hover:text-slate-100"/>
+                        <RiTailwindCssFill className="hover:text-slate-100"/>
+                        <SiTypescript className="hover:text-slate-100"/>
+                        <FaPython className="hover:text-slate-100"/>
+                        <SiCplusplus className="hover:text-slate-100"/>
+                        <SiSocketdotio className="hover:text-slate-100"/>
+                        <SiRaylib className="hover:text-slate-100"/>
+                        <SiMariadb className="hover:text-slate-100"/>
+                        <FaGithub className="hover:text-slate-100"/>
+                        <FaDocker className="hover:text-slate-100"/>
+                        <FaAws className="hover:text-slate-100"/>
+                    </div>
+                </div>
+                <div className="border-2 border-primary-light p-4 rounded-xl col-span-4 row-span-2 flex items-center justify-center">
+                    <h2 className="cursor-default font-medium text-2xl text-center text-nowrap">Software Engineer</h2>
+                </div>
+                <div className="bg-primary-base p-4 rounded-xl col-span-8 row-span-4 flex flex-col gap-2 justify-center items-center">
+                    <p className="text-2xl font-light text-center">"In theory, there is no difference between theory and practice. In practice, there is."</p>
+                    <p className="text-center font-extralight">- Jan L. A. van de Snepscheut</p>
+                </div>
+           </div>
+  
         </div>
-        <div className="my-2 flex items-center justify-center gap-6 sm:gap-8 lg:gap-10 p-4 text-slate-400 text-5xl sm:text-6xl">
+
+        {/* Profile Image */}
+        {/* <Link to="about" className="col-span-4 row-span-6">
+            <img className="rounded-xl object-cover w-full h-full" src={headshot}/>
+        </Link> */}
+        {/* <Link to="about" className="self-center w-3/4 sm:w-1/2 max-w-[500px]">
+            <img className="transition-all hover:ring-4 ring-slate-200 shadow-lg rounded-full aspect-square object-cover" src={headshot}/>
+        </Link> */}
+
+        {/* Social Links */}
+        {/* <div className="my-2 flex items-center justify-center gap-6 sm:gap-8 lg:gap-10 p-4 text-slate-400 text-5xl sm:text-6xl">
             <Link target="_blank" rel="noopener noreferrer" to="https://www.linkedin.com/in/michael-richardson-1aa3001a2/" className="hover:text-slate-100 transition-colors">
                 <FaLinkedin />
             </Link>
@@ -43,8 +115,7 @@ export default function Home() {
             <Link target="_blank" rel="noopener noreferrer" to="https://www.instagram.com/michaelrichardsonnn/" className="hover:text-slate-100 transition-colors">
                 <FaSquareInstagram />
             </Link>
-
-        </div>
+        </div> */}
         </>
     )
 }

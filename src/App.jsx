@@ -10,7 +10,7 @@ import { useState, useEffect } from 'react';
 
 function App() {
   return (
-    <div className="relative w-full h-full overscroll-none">
+    <div className="relative w-full overscroll-none">
         <Header/>
         <Outlet/>
     </div>
@@ -23,7 +23,6 @@ function Header() {
             <HeaderLink text="Home" path=""  />
             <HeaderLink text="About" path="about" />
             <HeaderLink text="Projects" path="projects" />
-            <HeaderLink text="Connect" path="connect" />
         </div>
     )
 }
