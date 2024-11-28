@@ -33,7 +33,6 @@ import {
 
 export default function Home() {
     return (
-        <>
         <div className="h-full p-4">
            <div className="mx-auto text-slate-100 text-xl flex flex-col gap-4 md:min-h-[500px] md:max-h-[90vh] md:max-w-[750px] md:grid md:grid-cols-12 md:grid-rows-12 ">
                 <div className="bg-primary-base p-6 rounded-xl col-span-8 row-span-3">
@@ -90,32 +89,6 @@ export default function Home() {
                     <p className="text-center font-extralight">- Jan L. A. van de Snepscheut</p>
                 </div>
            </div>
-  
         </div>
-
-        {/* Profile Image */}
-        {/* <Link to="about" className="col-span-4 row-span-6">
-            <img className="rounded-xl object-cover w-full h-full" src={headshot}/>
-        </Link> */}
-        {/* <Link to="about" className="self-center w-3/4 sm:w-1/2 max-w-[500px]">
-            <img className="transition-all hover:ring-4 ring-slate-200 shadow-lg rounded-full aspect-square object-cover" src={headshot}/>
-        </Link> */}
-
-        {/* Social Links */}
-        {/* <div className="my-2 flex items-center justify-center gap-6 sm:gap-8 lg:gap-10 p-4 text-slate-400 text-5xl sm:text-6xl">
-            <Link target="_blank" rel="noopener noreferrer" to="https://www.linkedin.com/in/michael-richardson-1aa3001a2/" className="hover:text-slate-100 transition-colors">
-                <FaLinkedin />
-            </Link>
-            <Link target="_blank" rel="noopener noreferrer" to="https://github.com/marichardson137" className="hover:text-slate-100 transition-colors">
-                <FaGithubSquare />
-            </Link>
-            <Link target="_blank" rel="noopener noreferrer" to="https://www.youtube.com/@gr4dience" className="hover:text-slate-100 transition-colors">
-                <FaSquareYoutube />
-            </Link>
-            <Link target="_blank" rel="noopener noreferrer" to="https://www.instagram.com/michaelrichardsonnn/" className="hover:text-slate-100 transition-colors">
-                <FaSquareInstagram />
-            </Link>
-        </div> */}
-        </>
     )
 }
