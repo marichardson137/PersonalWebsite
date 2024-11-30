@@ -14,7 +14,7 @@ export default function About() {
                         Who am I?
                     </h1>
                     <p className="sm:ml-4 mt-4 text-slate-300 text-base sm:text-lg md:text-xl text-center sm:text-left">
-                        I'm a Computer Science student at <span className="text-slate-200 font-semibold">North Carolina State University</span>. 
+                        I'm a senior in Computer Science at <span className="text-slate-200 font-semibold">North Carolina State University</span>. 
                         I love to <span className="text-slate-200 font-semibold">build</span> things- skate ramps, quadcopters, cat trees- you name it. For me, <span className="text-slate-200 font-semibold">computer programming </span> 
                         has always been the most <span className="text-slate-200 font-semibold">accessible</span> way to build out my next project and share it with others. I'm a big supporter of free and <Link to="https://www.blender.org/about/" target="_blank" rel="noopener noreferrer" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">open source</Link> software
                         and find great joy in <span className="text-slate-200 font-semibold">collaborating</span> with other developers. If there's one thing that excites me the most, it's <span className="text-slate-200 font-semibold">learning</span> something new- I'm always  <span className="text-slate-200 font-semibold">experimenting</span> with novel technologies,

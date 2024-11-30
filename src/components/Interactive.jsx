@@ -3,15 +3,29 @@ import {
     NavLink
   } from "react-router-dom/dist/index.js";
 
+import { useRef } from 'react';
 
-export function HeaderLink({ text, path }) {
+export function HeaderLink({ text, path, setPosition }) {
+
+    const ref = useRef(null);
+
     return (
         <NavLink 
+            ref={ref}
+            onClick={ () => {
+                if (!ref.current) return;
+
+                const { width } = ref.current.getBoundingClientRect();
+
+                setPosition({
+                    left: ref.current.offsetLeft,
+                    width,
+                    opacity: 1
+                })
+            }}
             to={`${import.meta.env.BASE_URL}${path}`}
             end={path === ""}   
-            className={({ isActive }) =>
-                isActive ? "border-b-4 border-rose-500 text-white text-lg py-2 px-2 transition-all font-semibold" : "font-semibold border-b-4 border-transparent text-slate-300 hover:text-slate-100 hover:border-b-rose-500/20 text-lg py-2 px-2"
-            }
+            className="z-10 font-semibold text-lg py-2 px-2 text-white mix-blend-difference"
         >
             {text}
         </NavLink>

@@ -4,7 +4,10 @@ import {
     NavLink
   } from "react-router-dom";
 
+  
+  
 import { HeaderLink } from "./components/Interactive";
+import { motion } from "framer-motion";
 
 import { FaHeart } from "react-icons/fa";
 
@@ -21,12 +24,31 @@ function App() {
 }
 
 function Header() {
+
+    const [position, setPosition] = useState({
+        left: 10,
+        width: 60,
+        opacity: 1
+    });
+
     return (
-        <div className="mb-2 flex gap-2 sm:gap-4 md:gap-6 lg:gap-10 pt-5 p-2 justify-center items-center">
-            <HeaderLink text="Home" path=""  />
-            <HeaderLink text="About" path="about" />
-            <HeaderLink text="Projects" path="projects" />
+        <div 
+            className="relative mb-2 flex gap-2 sm:gap-4 md:gap-6 lg:gap-10 pt-5 p-2 justify-center items-center mx-auto w-fit"
+        >
+            <HeaderLink setPosition={setPosition} text="Home" path=""  />
+            <HeaderLink setPosition={setPosition} text="About" path="about" />
+            <HeaderLink setPosition={setPosition} text="Projects" path="projects" />
+            <Cursor  position={position} />
         </div>
+    )
+}
+
+function Cursor({ position }) {
+    return (
+        <motion.div 
+            className="absolute z-0 bg-slate-200 rounded-xl h-10"
+            animate={position}
+        ></motion.div>
     )
 }
 
