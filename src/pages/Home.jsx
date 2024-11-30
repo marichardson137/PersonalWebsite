@@ -41,16 +41,16 @@ export default function Home() {
                 <div className="bg-primary-base p-6 rounded-xl col-span-4 row-span-6 flex flex-col">
                     <h2 className="text-2xl font-medium">Other Links</h2>
                     <div className="flex-grow p-6 grid grid-rows-1 grid-cols-4 md:grid-rows-2 md:grid-cols-2 text-slate-400 gap-y-4 gap-x-8 text-6xl place-items-center">
-                    <Link target="_blank" rel="noopener noreferrer" to="https://www.linkedin.com/in/michael-richardson-1aa3001a2/" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                    <Link target="_blank" rel="noopener noreferrer" to="https://www.linkedin.com/in/michael-richardson-1aa3001a2/" className="no-hover:scale-100 hover:scale-[110%] active:scale-100 duration-400 hover:text-slate-100 transition-all">
                             <FaLinkedin />
                         </Link>
-                        <Link target="_blank" rel="noopener noreferrer" to="https://github.com/marichardson137" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                        <Link target="_blank" rel="noopener noreferrer" to="https://github.com/marichardson137" className="no-hover:scale-100 hover:scale-[110%] active:scale-100 duration-400 hover:text-slate-100 transition-all">
                             <FaGithubSquare />
                         </Link>
-                        <Link target="_blank" rel="noopener noreferrer" to="https://www.youtube.com/@gr4dience" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                        <Link target="_blank" rel="noopener noreferrer" to="https://www.youtube.com/@gr4dience" className="no-hover:scale-100 hover:scale-[110%] active:scale-100 duration-400 hover:text-slate-100 transition-all">
                             <FaSquareYoutube />
                         </Link>
-                        <Link target="_blank" rel="noopener noreferrer" to="https://www.instagram.com/michaelrichardsonnn/" className="no-hover:scale-100 hover:scale-[105%] hover:text-slate-100 transition-colors">
+                        <Link target="_blank" rel="noopener noreferrer" to="https://www.instagram.com/michaelrichardsonnn/" className="no-hover:scale-100 hover:scale-[110%] active:scale-100 duration-400 hover:text-slate-100 transition-all">
                             <FaSquareInstagram />
                         </Link>
                     </div>
