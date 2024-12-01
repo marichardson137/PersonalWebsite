@@ -11,7 +11,7 @@ export default function About() {
     return (
         <div className="w-full h-full mb-10">
             <div 
-            className="w-full p-4 gap-4 flex flex-col justify-center items-center overflow-hidden max-w-[800px] mx-auto">
+            className="w-full p-2 md:p-4 gap-4 flex flex-col justify-center items-center overflow-hidden max-w-[800px] mx-auto">
                 <div className="p-2 z-10 flex flex-col items-center sm:items-start text-2xl sm:text-3xl lg:text-4xl">
                     <motion.h1                 
                         initial={{ opacity: 0, y: "10%" }}
@@ -28,7 +28,7 @@ export default function About() {
                         I'm a senior in Computer Science at <span className="text-slate-200 font-semibold">North Carolina State University</span>. 
                         I love to <span className="text-slate-200 font-semibold">build</span> things- skate ramps, quadcopters, cat trees- you name it. For me, <span className="text-slate-200 font-semibold">computer programming </span> 
                         has always been the most <span className="text-slate-200 font-semibold">accessible</span> way to build out my next project and share it with others. I'm a big supporter of free and <Link to="https://www.blender.org/about/" target="_blank" rel="noopener noreferrer" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">open source</Link> software
-                        and find great joy in <span className="text-slate-200 font-semibold">collaborating</span> with other developers. If there's one thing that excites me the most, it's <span className="text-slate-200 font-semibold">learning</span> something new- I'm always  <span className="text-slate-200 font-semibold">experimenting</span> with novel technologies,
+                        and find great joy in <span className="text-slate-200 font-semibold">collaborating</span> with other developers. If there's one thing that excites me the most, it's <span className="text-slate-200 font-semibold">learning</span> something new- I'm always  <span className="text-slate-200 font-semibold">seeking out</span> novel technologies,
                         patterns, and designs for inspiration. Check out my <Link to={`${import.meta.env.BASE_URL}projects`} className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">latest work</Link> to see this in action.
                     </motion.p>
                 </div>

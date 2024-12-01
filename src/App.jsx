@@ -36,7 +36,7 @@ function Header() {
             initial={{ opacity: 0, y: "-50%" }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }} 
-            className="relative mb-2 flex gap-2 sm:gap-4 md:gap-6 lg:gap-10 pt-5 p-2 justify-center items-center mx-auto w-fit"
+            className="z-[100] relative mb-2 flex gap-2 sm:gap-4 md:gap-6 lg:gap-10 pt-5 p-2 justify-center items-center mx-auto w-fit"
         >
             <HeaderLink setPosition={setPosition} text="Home" path=""  />
             <HeaderLink setPosition={setPosition} text="About" path="about" />
