@@ -10,7 +10,7 @@ export default function Projects() {
           imageUrl: 'https://via.placeholder.com/400',
         },
         {
-          title: 'Plant Tracker App',
+          title: 'PlantPal',
           description: 'An app to track the growth and health of various plants.',
           technologies: ['React', 'Node.js', 'MongoDB'],
           link: 'https://www.example.com',
@@ -21,7 +21,8 @@ export default function Projects() {
     return (
         <div className="w-full h-full m-auto p-4 max-w-[800px]">
             <div className="flex flex-col gap-4 justify-center items-center">
-                {projects.map((project, index) => (
+                Under Construction
+                {/* {projects.map((project, index) => (
                     <ProjectCard
                     key={index}
                     title={project.title}
@@ -30,7 +31,7 @@ export default function Projects() {
                     link={project.link}
                     imageUrl={project.imageUrl}
                     />
-                ))}
+                ))} */}
             </div>        
         </div>
     )
