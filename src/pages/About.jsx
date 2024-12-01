@@ -16,14 +16,14 @@ export default function About() {
                     <motion.h1                 
                         initial={{ opacity: 0, y: "10%" }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3, delay: 0.0 }} 
+                        transition={{ delay: 0.0 }} 
                         className="font-semibold lg:py-2 text-slate-100 text-4xl lg:text-5xl">
                         Who am I?
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: "10%" }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3, delay: 0.1 }} 
+                        transition={{ delay: 0.1 }} 
                         className="sm:ml-4 mt-4 text-slate-300 text-base sm:text-lg md:text-xl text-center sm:text-left">
                         I'm a senior in Computer Science at <span className="text-slate-200 font-semibold">North Carolina State University</span>. 
                         I love to <span className="text-slate-200 font-semibold">build</span> things- skate ramps, quadcopters, cat trees- you name it. For me, <span className="text-slate-200 font-semibold">computer programming </span> 
@@ -36,7 +36,7 @@ export default function About() {
                     <motion.h1
                         initial={{ opacity: 0, y: "10%" }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3, delay: 0.2 }} 
+                        transition={{ delay: 0.2 }} 
                     className="font-semibold lg:py-2 text-slate-100 text-4xl lg:text-5xl">
                         My Journey
                     </motion.h1>
@@ -44,7 +44,7 @@ export default function About() {
                     <motion.ol
                         initial={{ opacity: 0, y: "10%" }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3, delay: 0.3 }} 
+                        transition={{ delay: 0.3 }} 
                         className="ml-4 mt-4 relative border-s border-gray-200 dark:border-gray-700">                  
                         <li className="mb-10 ms-8">
                             <div className="absolute w-10 h-10 bg-gray-700/50 backdrop-blur-sm rounded-full mt-6 -start-5 flex justify-center items-center text-lg font-semibold text-slate-200">?</div>
