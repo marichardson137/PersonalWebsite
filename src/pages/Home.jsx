@@ -1,4 +1,4 @@
-import headshot from '../assets/headshot.jpg';
+import headshot from '../assets/mountain.png';
 
 import { motion } from 'framer-motion';
 
