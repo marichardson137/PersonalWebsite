@@ -25,10 +25,10 @@ export default function About() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.1 }} 
                         className="sm:ml-4 mt-4 text-slate-300 text-base sm:text-lg md:text-xl text-center sm:text-left">
-                        I'm a recent Computer Science graduate from <span className="text-slate-200 font-semibold">North Carolina State University</span>. 
-                        I love to <span className="text-slate-200 font-semibold">build</span> things- skate ramps, bicycles, cat trees- you name it. For me, <span className="text-slate-200 font-semibold">computer programming </span> 
-                        has always been the most <span className="text-slate-200 font-semibold">accessible</span> way to build out my next project and share it with others. I'm a big supporter of free and <Link to="https://www.blender.org/about/" target="_blank" rel="noopener noreferrer" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">open source</Link> software,
-                        especially as a means to <span className="text-slate-200 font-semibold">collaborate</span> with other developers. If there's one thing that excites me the most, it's <span className="text-slate-200 font-semibold">learning</span> how technology operates behind the scenes.
+                        I'm a recent Computer Science graduate from North Carolina State University. 
+                        I love to build things- skate ramps, bicycles, cat trees- you name it. For me, computer programming  
+                        has always been the most accessible way to create my next project and share it with others. I'm a big supporter of free and <Link to="https://www.blender.org/about/" target="_blank" rel="noopener noreferrer" className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">open source</Link> software,
+                        especially as a means to collaborate with and inspire other developers. If there's one thing that excites me the most, it's learning how technology operates behind the scenes- even if most of it still feels like magic.
                          Check out my <Link to={`${import.meta.env.BASE_URL}projects`} className="underline hover:text-slate-200 hover:no-underline transition-all duration-300">latest work</Link> to see this in action.
                     </motion.p>
                 </div>
@@ -50,7 +50,7 @@ export default function About() {
                         <img src={sas} className="absolute w-10 h-10 bg-gray-200 rounded-full mt-6 -start-5 " />
                             <time className="mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">August 2025</time>
                             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Engineer - <span className="font-light">SAS Institute</span></h3>
-                            <p className="text-lg font-normal text-gray-500 dark:text-gray-400">Accepted a full-time offer with the Ci360 - Platform Engineering Team!
+                            <p className="text-lg font-normal text-gray-500 dark:text-gray-400">Accepted a full-time offer with the CI360 - Platform Engineering Team
                             </p>
                         </li>
                         <li className="mb-10 ms-8">
