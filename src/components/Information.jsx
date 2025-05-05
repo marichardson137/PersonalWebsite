@@ -45,12 +45,14 @@ const isOdd = (index) => index % 2 !== 0;
                 </Link>
                 <p className="text-base text-slate-400">{description}</p>
             </div>
-            <div className="flex gap-2 text-sm overflow-x-scroll rounded-full pr-2">
-                { technologies.map((technology, index) => (
-                    <span key={index} className="bg-primary-light/75  rounded-full py-1 px-2">
-                        { technology }
+            <div className="overflow-hidden rounded-full pr-2">
+                <div className="flex gap-2 text-sm hover:animate-scroll pr-2 whitespace-nowrap">
+                    {technologies.map((technology, index) => (
+                    <span key={index} className="bg-primary-light/75 rounded-full py-1 px-2 inline-block">
+                        {technology}
                     </span>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     </motion.div>

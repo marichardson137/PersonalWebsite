@@ -3,6 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+    keyframes: {
+        scroll: {
+            '0%': { transform: 'translateX(0)' },
+            '100%': { transform: 'translateX(-55%)' },
+        },
+        },
+        animation: {
+        scroll: 'scroll 3s linear forwards',
+        },
       screens: {
         "no-hover": { raw: "(hover: none)" },
       },
@@ -21,5 +30,8 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require('tailwind-scrollbar-hide')
+  ],
 };
