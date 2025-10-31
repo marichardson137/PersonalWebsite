@@ -50,7 +50,8 @@ export default function About() {
                         <img src={sas} className="absolute w-10 h-10 bg-gray-200 rounded-full mt-6 -start-5 " />
                             <time className="mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">August 2025</time>
                             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Engineer - <span className="font-light">SAS Institute</span></h3>
-                            <p className="text-lg font-normal text-gray-500 dark:text-gray-400">Accepted a full-time offer with the CI360 - Platform Engineering Team
+                            <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
+                                Working on the CI360 - Application Infrastructure Team
                             </p>
                         </li>
                         <li className="mb-10 ms-8">

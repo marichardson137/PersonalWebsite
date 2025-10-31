@@ -70,7 +70,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.12 }}
                 className="border-2 border-primary-light p-4 rounded-xl col-span-4 row-span-2 flex items-center justify-center">
-                    <h2 className="cursor-default font-medium text-2xl text-center text-nowrap">Chapel Hill, NC</h2>
+                    <h2 className="cursor-default font-medium text-2xl text-center text-nowrap">Denver, CO</h2>
                 </motion.div>
                 <motion.div
                 initial={{ opacity: 0, y: "-50%" }}

@@ -9,6 +9,13 @@ import { ProjectCard } from "../components/Information"
 export default function Projects() {
     const projects = [
         {
+            title: 'Flight Simulation',
+            description: 'A physics-based flight simulation written in pure C. Uses NACA airfoil data to emulate the flight characteristics of a Cessna 172 with realistic air density/pressure, lift/drag forces, and 6 control surfaces (wings, ailerons, elevator, rudder). Supports both keyboard and controller input and can display all forces acting on the aircraft in real-time.',
+            technologies: ['C/C++', 'Computer Graphics', 'Control Theory', 'Physics', 'Dynamics'],
+            link: 'https://github.com/marichardson137/FlightSimulator',
+            images: ['./projects/Flight2.gif', './projects/Flight1.jpg', './projects/Flight4.gif', './projects/Flight5.gif', './projects/Flight3.gif' ],
+        },
+        {
             title: 'GalantJS',
             description: 'This was the Senior Design project I worked on at NC State under Dr. Matthias Stallmann. Specifically, our team did a complete re-write of the state management and rendering systems that power GalantJS. These changes improved the readability, robustness, and efficiency of the codebase. Additionally, we added support for layered graphs and their related algorithms.',
             technologies: ['JavaScript', 'React.js', 'Cytoscape', 'Data Structures', 'Algorithms'],
